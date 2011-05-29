@@ -18,3 +18,7 @@ module innie_connector(z) {
   }
 }
 
+module train_proxy() {
+  color([128,0,128,1]) cube([inches(1),inches(0.25),inches(0.1)], center=true);
+}
+

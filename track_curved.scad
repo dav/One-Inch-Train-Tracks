@@ -16,7 +16,7 @@ module curved_rail(radius) {
   }
 }
 
-module curved_track() {
+module left_curved_track() {
   union() {
     intersection() {
       difference() {
@@ -44,4 +44,11 @@ module curved_track() {
   }
 }
 
-translate([inches(-3.5),inches(-2),0]) curved_track();
+module right_curved_track() {
+  translate([inches(7),0,0])
+  mirror([1,0,0])
+  left_curved_track();
+}
+
+translate([inches(-3.5),inches(-2),0]) left_curved_track();
+// translate([inches(-3.5),inches(-2),0]) right_curved_track();
