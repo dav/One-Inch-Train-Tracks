@@ -1,7 +1,7 @@
 use <tracks_lib.scad>
 use <track_curved.scad>
 
-// CGAL rendering time = 1 hour, 20 minutes
+// CGAL rendering time = 15 minutes
 
 // material is 24"x48"
 

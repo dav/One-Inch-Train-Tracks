@@ -1,7 +1,7 @@
 use <tracks_lib.scad>
 use <track_straight.scad>
 
-// CGAL rendering time = 15 minutes
+// CGAL rendering time = 2 minutes for 4x4 6", 1 hour, 20  minutes for 15x10 2"
 
 // material is 24"x48"
 
